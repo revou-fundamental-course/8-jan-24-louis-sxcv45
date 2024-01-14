@@ -4,26 +4,97 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <title>Katik Persegi</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Calculator Persegi</title>
 </head>
 <body>
     <header>
-        <h1>
-            Kalkulator Luas dan Keliling Persegi
-        </h1>
-
-        <h3>Welcome to kalkulator Luas dan Keliling Persegi</h3>
-        <p>Web ini digunakan untuk menghitung Luas dan Keliling Persegi dalam rangka menyelesaikan mini project RevoU</p>
+        <h1> Kalkulator Matematika Persegi</h1>
     </header>
+    <main>
+        <section class="container">
+            <div class="sub_main">
+                <span><p>Welcome to Square Area & Perimeter Calculator</p></span>
+                <p>
+                    Web ini digunakan untuk menghitung Luas dan 
+                    Keliling Persegi dengan mudah tanpa ribet dalam rangka menyelesaikan mini 
+                    project RevoU. Dengan antarmuka yang sederhana dan intuitif, 
+                    Anda dapat dengan cepat memasukkan panjang sisi persegi 
+                    dan mendapatkan hasil perhitungan secara instan. 
+                </p>
+            </div>
+            <img src="assets/math.png" alt="math_photo">
+        </section>
 
-    <div class="inputSection">
-        <label for="squareSide" id="labelSquareSide"> Hitung Luas Persegi</label>
-        <input type="number" name="" id="squareSide">
-    </div>
+        <section class="calc">
 
-    <div class="buttons">
-        <button id="countButton">Hitung</button>
-        <button id="resetButton">Reset</button>
-    </div>
+            <div class="nav_link">
+                <ul>
+                    <li class="active">Persegi</li>
+                    <li>Persegi Panjang</li>
+                </ul>
+            </div>
+            <div class="calc-area">
+                <div class="area">
+                    <span class="text-luas">Luas Persegi</span>
+                    <div class="rumus">
+                        <img src="assets/square.png" alt="square_img">
+                        <div class="text-rumus">
+                            <p>Rumus Luas Persegi yaitu:</p>
+                            <span>L = S x S</span>
+                            <p>
+                                Di mana: <br>
+                                L = Luas <br>
+                                S = Sisi <br>
+                            </p>
+                        </div>
+                    </div>
+                    <input id = "sisi" type="number" placeholder="Input Sisi">
+
+                    <div class="btn">
+                        <button id="hitung">
+                            Hitung
+                        </button>
+                        <button id="reset">
+                            Reset
+                        </button>
+                    </div>
+                </div>
+                <div class="area">
+                    <span class="text-luas">Keliling Persegi</span>
+                    <div class="rumus">
+                        <img src="assets/square.png" alt="square_img">
+                        <div class="text-rumus">
+                            <p>Rumus Keliling Persegi yaitu:</p>
+                            <span>K = 4 x S</span>
+                            <p>
+                                Di mana: <br>
+                                K = Keliling <br>
+                                S = Sisi <br>
+                            </p>
+                        </div>
+                </div>
+                    <input id = "sisi" type="number" placeholder="Input Sisi">
+
+                    <div class="btn">
+                        <button id="hitung">
+                            Hitung
+                        </button>
+                        <button id="reset">
+                            Reset
+                        </button>
+                    </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <footer>
+            <p>&copy; 2024 Kalkulator Matematika Persegi. All rights reserved. Created by Louis.</p>
+            <ul>
+                <li><a href="https://www.instagram.com/louis.sxcv/"><i class='bx bxl-instagram'></i></a></li>
+                <li><a href="https://github.com/louis-sxcv45"><i class='bx bxl-github'></i></a></li>
+            </ul>
+        </footer>
+    </footer>
 </body>
 </html>
