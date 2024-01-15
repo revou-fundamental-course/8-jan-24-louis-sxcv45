@@ -1,7 +1,7 @@
-function calculate(sideLength, result){
+function calculate(event,sideLength, result){
     var sisi = document.getElementById(sideLength).value;
     var result = document.getElementById(result);
-
+    
     if (sideLength === 'sisi'){
         if (sisi !== ''){
             var luas = sisi * sisi;
@@ -23,7 +23,6 @@ function calculate(sideLength, result){
         }
     }
 }
-
 function reset(sideLength, result){
     document.getElementById(sideLength).value = '';
     document.getElementById(result).innerHTML = '';
