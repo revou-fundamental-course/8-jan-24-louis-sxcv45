@@ -3,12 +3,24 @@ function calculate(sideLength, result){
     var result = document.getElementById(result);
 
     if (sideLength === 'sisi'){
-        var luas = sisi * sisi;
-        result.innerHTML = "L = S x S <br>" + "L = " + sisi + "*"+ sisi + "<br>" + "L = " + luas;
+        if (sisi !== ''){
+            var luas = sisi * sisi;
+            result.innerHTML = "L = S x S <br>" + "L = " + sisi + "*"+ sisi + "<br>" + "L = " + luas;
+        }
+        else{
+            window.alert("Please Input the Side Length");
+            result.innerHTML = "";
+        }
     }
-    else{
-        var keliling = 4 * sisi;
-        result.innerHTML = "L = 4 x S <br>" + "L = " + "4" + "*" + sisi + "<br>" + "L = " + keliling;
+    else if (sideLength === 'sisiKeliling'){
+        if (sisi !== ''){
+            var keliling = 4 * sisi;
+            result.innerHTML = "L = 4 x S <br>" + "L = " + "4" + "*" + sisi + "<br>" + "L = " + keliling;
+        }
+        else{
+            window.alert("Please Input the Side Length");
+            result.innerHTML = "";
+        }
     }
 }
 
