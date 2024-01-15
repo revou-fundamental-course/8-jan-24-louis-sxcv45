@@ -1,8 +1,9 @@
-*,
-body {
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Merriweather:wght@300&family=Roboto:wght@300;400;700;900&family=Signika+Negative:wght@300;400&display=swap');
+
+*,body {
 	margin: 0;
 	padding: 0;
-	font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+	font-family: 'Roboto', sans-serif;
 }
 header {
 	background-color: #4477ce;
@@ -15,6 +16,7 @@ header > h1 {
 	color: #d8d8d8;
 	font-size: 25px;
 	letter-spacing: 4px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .container {
@@ -38,7 +40,6 @@ header > h1 {
 .sub_main > p {
 	font-size: 25px;
 	color: #2f1b69;
-	font-weight: 500;
 	margin-top: 40px;
 	text-align: justify;
 }
@@ -90,8 +91,8 @@ header > h1 {
 }
 
 .text-rumus > p {
-	margin: 10px 15em 10px 0;
-	font-size: 16px;
+	margin: 30px 210px 10px 0;
+	font-size: 17px;
 }
 .text-rumus > span {
 	display: flex;
@@ -109,6 +110,8 @@ header > h1 {
 	text-align: center;
 	background-color: #8ea7e9;
 	padding: 40px;
+    letter-spacing: 3px;
+    font-weight: bolder;
 }
 
 .btn button {
@@ -127,6 +130,7 @@ header > h1 {
 	background-color: #f8fafc;
 	color: #0d0c22;
 	transition: 0.5s ease;
+    font-size: 17px;
 }
 
 .input::placeholder {
@@ -203,5 +207,6 @@ footer li > a {
 
 .resultPersegi {
 	font-size: 20px;
-	margin-left: 45px;
+
+    margin: 0 45px 30px;
 }
