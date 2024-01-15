@@ -152,7 +152,7 @@ header > h1{
     width: 40px;
 }
 
-#sisi, #sisiKeliling{
+.input{
     width: 50%;
     height: 45px;
     line-height: 30px;
@@ -167,10 +167,10 @@ header > h1{
     
 }
 
-#sisi::placeholder, #sisiKeliling::placeholder {
+.input::placeholder {
     color: #94a3b8;
 }
-#sisi:focus, #sisiKeliling::focus{
+.input:focus {
     outline: none;
     border-color: rgba(129, 140, 248);
     background-color: #fff;
