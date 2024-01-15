@@ -152,7 +152,7 @@ header > h1{
     width: 40px;
 }
 
-#sisi{
+#sisi, #sisiKeliling{
     width: 50%;
     height: 45px;
     line-height: 30px;
@@ -167,10 +167,10 @@ header > h1{
     
 }
 
-#sisi::placeholder {
+#sisi::placeholder, #sisiKeliling::placeholder {
     color: #94a3b8;
 }
-#sisi:focus{
+#sisi:focus, #sisiKeliling::focus{
     outline: none;
     border-color: rgba(129, 140, 248);
     background-color: #fff;
@@ -211,7 +211,7 @@ header > h1{
     margin-left: 20px;
 }
 footer{
-    background-color: grey;
+    background-color: #040D12;
     display: flex;
     flex-direction: column;
 }
@@ -222,6 +222,7 @@ footer > p{
     margin-top: 20px;
     font-size: 16px;
     margin-bottom: 20px;
+    color: white;
 }
 footer > ul{
     display: flex;
@@ -231,7 +232,7 @@ footer > ul{
 }
 
 footer li > a{
-    color: black;
+    color: white;
     text-align: center;
     text-decoration: none;
     margin-left: 25px;

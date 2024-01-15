@@ -52,13 +52,15 @@
                     <input id = "sisi" type="number" placeholder="Input Sisi">
 
                     <div class="btn">
-                        <button id="hitung">
+                        <button id="hitung" onclick="calculate('sisi','result')">
                             Hitung
                         </button>
-                        <button id="reset">
+                        <button id="reset" onclick="reset('sisi', 'result')">
                             Reset
                         </button>
                     </div>
+
+                    <div id="result"></div>
                 </div>
                 <div class="area">
                     <span class="text-luas">Keliling Persegi</span>
@@ -74,16 +76,18 @@
                             </p>
                         </div>
                 </div>
-                    <input id = "sisi" type="number" placeholder="Input Sisi">
+                    <input id = "sisiKeliling" type="number" placeholder="Input Sisi">
 
                     <div class="btn">
-                        <button id="hitung">
+                        <button id="hitung" onclick="calculate('sisiKeliling', 'resultKeliling')">
                             Hitung
                         </button>
-                        <button id="reset">
+                        <button id="reset" onclick="reset('sisiKeliling', 'resultKeliling')">
                             Reset
                         </button>
                     </div>
+
+                <div id="resultKeliling"></div>
             </div>
         </section>
     </main>
@@ -96,5 +100,7 @@
             </ul>
         </footer>
     </footer>
+
+    <script src="/js/index.js"></script>
 </body>
 </html>
