@@ -5,7 +5,7 @@ function calculate(sideLength, result){
     if (sideLength === 'sisi'){
         if (sisi !== ''){
             var luas = parseInt(sisi) * parseInt(sisi);
-            result.innerHTML = "L = S x S <br>" + "L = " + sisi + "x"+ sisi + "<br>" + "L = " + luas;
+            result.innerHTML = "L = S x S <br>" + "L = " + sisi + " x "+ sisi + "<br>" + "L = " + luas;
         }
         else{
             window.alert("Please Input the Side Length");
@@ -15,7 +15,7 @@ function calculate(sideLength, result){
     else if (sideLength === 'sisiKeliling'){
         if (sisi !== ''){
             var keliling = 4 * parseInt(sisi);
-            result.innerHTML = "K = 4 x S <br>" + "K = " + "4" + "x" + sisi + "<br>" + "K = " + keliling;
+            result.innerHTML = "K = 4 x S <br>" + "K = " + "4" + " x " + sisi + "<br>" + "K = " + keliling;
         }
         else{
             window.alert("Please Input the Side Length");
