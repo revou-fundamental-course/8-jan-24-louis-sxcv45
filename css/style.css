@@ -212,25 +212,31 @@ footer li > a {
 }
 
 /* for Phone */
-@media screen and (max-width:600px) {
+@media screen and (max-width:768px) {
 	.container{
 		display: flex;
 		flex-direction: row;
+		justify-content: flex-start;
 	}
 
+	.sub_main {
+		padding: 0 1px;
+		margin-left: 20px;
+	}
 	.container img{
-		width: 165px;
+		width: 10em;
 		padding-right: 5px;
+		margin-left: 10px;
 	}
 
 	.sub_main span{
-		font-size: 80px;
+		font-size: 60px;
 	}
 
 	.sub_main p{
 		font-size: 18px;
 		color: #2f1b69;
-		margin-top: 40px;
-		text-align: justify;
+		margin-top: 10px;
+		text-align: left;
 	}
 }
