@@ -213,10 +213,20 @@ footer li > a {
 
 /* for Phone */
 @media screen and (max-width:768px) {
+
+	header{
+		padding: 20px 0;
+	}
+
+	header > h1 {
+		font-size: 17px;
+		letter-spacing: 0;
+	}
 	.container{
 		display: flex;
-		flex-direction: row;
-		justify-content: flex-start;
+		flex-direction: column;
+		height: auto;
+		align-items: center;
 	}
 
 	.sub_main {
@@ -227,16 +237,19 @@ footer li > a {
 		width: 10em;
 		padding-right: 5px;
 		margin-left: 10px;
+		margin-bottom: 20px;
 	}
 
-	.sub_main span{
-		font-size: 60px;
+	.sub_main span p{
+		font-size: 20px;
+		text-align: center;
 	}
 
 	.sub_main p{
 		font-size: 18px;
 		color: #2f1b69;
 		margin-top: 10px;
-		text-align: left;
+		text-align: justify;
+		align-items: center;
 	}
 }
