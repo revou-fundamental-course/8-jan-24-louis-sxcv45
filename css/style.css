@@ -1,51 +1,57 @@
-@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Merriweather:wght@300&family=Roboto:wght@300;400;700;900&family=Signika+Negative:wght@300;400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Merriweather:wght@300&family=Roboto:wght@300;400;700;900&family=Signika+Negative:wght@300;400&display=swap");
 
-*,body {
+*,
+body {
 	margin: 0;
 	padding: 0;
-	font-family: 'Roboto', sans-serif;
+	font-family: "Roboto", sans-serif;
+	font-size: 17px;
 }
+
 header {
 	background-color: #4477ce;
 	width: 100%;
-	padding: 30px 0;
+	padding: 1.76471em 0;
 }
 
 header > h1 {
 	text-align: center;
 	color: #d8d8d8;
-	font-size: 25px;
-	letter-spacing: 4px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-size: 1.47059em;
+	letter-spacing: 0.23529em;
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 .container {
 	display: flex;
 	flex-direction: row;
-	padding: 0px 15px;
+	padding: 0 0.88235em;
 	align-items: center;
 	justify-content: flex-end;
 	height: 100vh;
 	background-color: #f4f5ff;
 }
+
 .sub_main {
-	padding: 0 30px;
+	padding: 0 1.76471em;
 }
-.sub_main > span {
+
+.sub_main > span > p{
 	color: #2f1b69;
-	font-size: 60px;
+	font-size: 3.52941em;
 	font-weight: 900;
 }
 
 .sub_main > p {
-	font-size: 25px;
+	font-size: 1.47059em;
 	color: #2f1b69;
-	margin-top: 40px;
+	margin-top: 2.35294em;
 	text-align: justify;
 }
+
 .container > img {
 	width: 30em;
-	padding-right: 20px;
+	padding-right: 1.17647em;
 }
 
 .calc {
@@ -53,117 +59,124 @@ header > h1 {
 	flex-direction: column;
 	justify-content: space-evenly;
 	background-color: #ffff;
-	margin-top: 10px;
-	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	margin-top: 0.58824em;
+	box-shadow: 0 0 0.58824em rgba(0, 0, 0, 0.1);
 }
+
 .calc-area {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	padding: 20px 30px;
+	padding: 1.17647em 1.76471em;
 }
 
 .area {
 	display: flex;
 	flex-direction: column;
 	background-color: #f2f4fc;
-	border-radius: 8px;
-	width: 500px;
-	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-	margin-top: 50px;
+	border-radius: 0.47059em;
+	width: 31.25em;
+	box-shadow: 0 0 0.58824em rgba(0, 0, 0, 0.1);
+	margin-top: 3.52941em;
 }
 
 .area > span {
-	font-size: 22px;
-	letter-spacing: 2px;
+	font-size: 1.41176em;
+	letter-spacing: 0.23529em;
 }
+
 .rumus {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	margin-top: 20px;
+	margin-top: 1.17647em;
 }
+
 .text-rumus {
 	display: flex;
 	flex-direction: column;
-	padding: 0 5px;
+	padding: 0 0.29412em;
 }
 
 .text-rumus > p {
-	margin: 30px 210px 10px 0;
-	font-size: 17px;
+	margin: 1.76471em 11.76471em 0.58824em 0;
+	font-size: 1.05882em;
 }
+
 .text-rumus > span {
 	display: flex;
-	margin: 20px 0;
+	margin: 1.17647em 0;
 	justify-content: center;
 	align-items: center;
 	font-weight: bold;
-	font-size: 16px;
+	font-size: 1.05882em;
 }
+
 .rumus > img {
 	width: 20em;
-	padding: 10px 0;
+	padding: 0.58824em 0;
 }
+
 .area > .text-luas {
 	text-align: center;
 	background-color: #8ea7e9;
-	padding: 40px;
-    letter-spacing: 3px;
-    font-weight: bolder;
+	padding: 2.35294em;
+	letter-spacing: 0.2em;
+	font-weight: bolder;
 }
 
 .btn > button {
-	width: 40px;
+	width: 2.35294em;
 }
 
 .input {
 	width: 50%;
-	height: 45px;
-	line-height: 30px;
-	border: 2px solid #98a8f8;
-	padding: 0 15px;
-	border-radius: 10px;
-	margin: 20px 35px;
+	height: 2.64706em;
+	line-height: 1.76471em;
+	border: 0.11765em solid #98a8f8;
+	padding: 0 0.88235em;
+	border-radius: 0.58824em;
+	margin: 1.17647em 2.05882em;
 	outline: none;
 	background-color: #f8fafc;
 	color: #0d0c22;
 	transition: 0.5s ease;
-    font-size: 17px;
+	font-size: 1.05882em;
 }
 
 .input::placeholder {
 	color: #94a3b8;
 }
+
 .input:focus {
 	outline: none;
 	border-color: rgba(129, 140, 248);
 	background-color: #fff;
-	box-shadow: 0 0 0 5px rgb(129 140 248 / 30%);
+	box-shadow: 0 0 0 0.29412em rgb(129 140 248 / 30%);
 }
 
 .btn {
-	margin: 4px 40px 25px;
+	margin: 0.23529em 2.11765em 1.47059em;
 }
 
 .btn > button {
-	font-size: 16px;
-	width: 80px;
-	height: 30px;
+	font-size: 1.05882em;
+	width: 4.70588em;
+	height: 2.11765em;
 	color: whitesmoke;
 	text-align: center;
 	cursor: pointer;
 	border: none;
 	background-color: #6e85b2;
-	border-radius: 10px;
+	border-radius: 0.58824em;
 	transition: all 0.5s;
 	-webkit-transition: all 0.5s;
 }
 
 .btn > button:hover {
 	background-color: #5b79b4;
-	box-shadow: 0 0 20px #6fc5ff50;
+	box-shadow: 0 0 1.17647em #6fc5ff50;
 	transform: scale(1.1);
 }
 
@@ -173,9 +186,11 @@ header > h1 {
 	box-shadow: none;
 	transform: scale(0.98);
 }
+
 .btn > #reset {
-	margin-left: 20px;
+	margin-left: 1.17647em;
 }
+
 footer {
 	background-color: #040d12;
 	display: flex;
@@ -184,11 +199,12 @@ footer {
 
 footer > p {
 	text-align: center;
-	margin-top: 20px;
-	font-size: 16px;
-	margin-bottom: 20px;
+	margin-top: 1.41176em;
+	font-size: 1.05882em;
+	margin-bottom: 1.41176em;
 	color: white;
 }
+
 footer > ul {
 	display: flex;
 	flex-direction: row;
@@ -196,60 +212,264 @@ footer > ul {
 	list-style: none;
 }
 
-footer li > a {
+footer > ul > li > a > i {
 	color: white;
 	text-align: center;
 	text-decoration: none;
-	margin-left: 25px;
-	margin-right: 20px;
-	font-size: 25px;
+	margin-left: 1.47059em;
+	margin-right: 1.17647em;
+	margin-bottom: 20px;
+	font-size: 1.8em;
 }
 
 .resultPersegi {
-	font-size: 20px;
-
-    margin: 0 45px 30px;
+	font-size: 1.17647em;
+	margin: 0 2.64706em 1.76471em;
 }
 
 /* for Phone */
-@media screen and (max-width:768px) {
-
-	header{
-		padding: 20px 0;
+@media screen and (max-width: 600px) {
+	body {
+		width: 100%;
+	}
+	header {
+		padding: 1.17647em 0;
 	}
 
 	header > h1 {
-		font-size: 17px;
+		font-size: 1.76471em;
 		letter-spacing: 0;
 	}
-	.container{
+	.container {
 		display: flex;
 		flex-direction: column;
 		height: auto;
 		align-items: center;
+		margin-top: 20px;
 	}
 
 	.sub_main {
-		padding: 0 1px;
-		margin-left: 20px;
+		padding: 0 0.05882em;
+		margin-left: 0.58824em;
 	}
-	.container img{
+	.container > img {
 		width: 10em;
-		padding-right: 5px;
-		margin-left: 10px;
-		margin-bottom: 20px;
+		padding-right: 0.29412em;
+		margin: 0.58824em 0.58824em 1.17647em;
 	}
 
-	.sub_main span p{
-		font-size: 20px;
+	.sub_main > span > p {
+		font-size: 1.76471em;
 		text-align: center;
+		margin-bottom: 15px;
 	}
 
-	.sub_main p{
-		font-size: 18px;
+	.sub_main > p {
+		font-size: 1.17647em;
 		color: #2f1b69;
-		margin-top: 10px;
+		margin-top: 0.58824em;
 		text-align: justify;
+		align-content: center;
+	}
+
+	.calc-area {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.area {
+		width: 100%;
+	}
+
+	.rumus > img {
+		width: 15em;
+		padding: 0.58824em 0;
+	}
+
+	.text-rumus > p {
+		margin-left: 1.17647em;
+		font-size: 1.05882em;
+	}
+
+	.input {
+		margin-left: 1.47059em;
+	}
+
+	.btn {
+		margin-left: 1.47059em;
+	}
+
+	#sisiKeliling {
+		margin-left: 1.47059em;
+	}
+
+	footer > p {
+		font-size: 0.8em;
+	}
+
+	footer > ul > li > a > i{
+		font-size: 1.4em;
+	}
+}
+
+/* for mini iPad */
+@media screen and (min-width:601px) and (max-width: 768px) {
+	body {
+		width: 100%;
+	}
+	header {
+		padding: 1.17647em 0;
+	}
+
+	header > h1 {
+		font-size: 1.76471em;
+		letter-spacing: 0;
+	}
+	.container {
+		display: flex;
+		flex-direction: column;
+		height: auto;
 		align-items: center;
+		margin-top: 20px;
+	}
+
+	.sub_main {
+		padding: 0 0.05882em;
+		margin-left: 0.58824em;
+	}
+	.container > img {
+		width: 10em;
+		padding-right: 0.29412em;
+		margin: 0.58824em 0.58824em 1.17647em;
+	}
+
+	.sub_main > span > p {
+		font-size: 1.76471em;
+		text-align: center;
+		margin-bottom: 15px;
+	}
+
+	.sub_main > p {
+		font-size: 1.17647em;
+		color: #2f1b69;
+		margin-top: 0.58824em;
+		text-align: justify;
+		align-content: center;
+	}
+
+	.calc-area {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.area {
+		width: 100%;
+	}
+
+	.rumus > img {
+		width: 15em;
+		padding: 0.58824em 0;
+	}
+
+	.text-rumus > p {
+		margin-left: -13em;
+		font-size: 1.05882em;
+	}
+
+	#sisiKeliling {
+		margin-left: 1.76471em;
+	}
+
+	.keliling {
+		margin-left: 1.76471em;
+	}
+
+	footer > p {
+		font-size: 1.3em;
+	}
+
+	footer > ul > li > a > i{
+		font-size: 2.0em;
+	}
+}
+
+/* for large ipad or another desktop have the max width 1024 */
+@media screen and (min-width:769px) and (max-width: 1024px) {
+	body {
+		width: 100%;
+	}
+	header {
+		padding: 1.17647em 0;
+	}
+
+	header > h1 {
+		font-size: 1.76471em;
+		letter-spacing: 0;
+	}
+	.container {
+		display: flex;
+		flex-direction: column;
+		height: auto;
+		align-items: center;
+		margin-top: 20px;
+	}
+
+	.sub_main {
+		padding: 0 0.05882em;
+		margin-left: 0.58824em;
+	}
+	.container > img {
+		width: 10em;
+		padding-right: 0.29412em;
+		margin: 0.58824em 0.58824em 1.17647em;
+	}
+
+	.sub_main > span > p {
+		font-size: 1.76471em;
+		text-align: center;
+		margin-bottom: 15px;
+	}
+
+	.sub_main > p {
+		font-size: 1.17647em;
+		color: #2f1b69;
+		margin-top: 0.58824em;
+		text-align: justify;
+		align-content: center;
+	}
+
+	.calc-area {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.area {
+		width: 100%;
+	}
+
+	.rumus > img {
+		width: 15em;
+		padding: 0.58824em 0;
+	}
+
+	.text-rumus > p {
+		margin-left: -22em;
+		font-size: 1.05882em;
+	}
+
+	#sisiKeliling {
+		margin-left: 1.76471em;
+	}
+
+	.keliling {
+		margin-left: 1.76471em;
+	}
+
+	footer > p {
+		font-size: 1.4em;
+	}
+
+	footer > ul > li > a > i{
+		font-size: 2.4em;
 	}
 }
