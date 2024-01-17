@@ -15,7 +15,7 @@ function calculate(sideLength, result){
     else if (sideLength === 'sisiKeliling'){
         if (sisi !== ''){
             var keliling = 4 * parseInt(sisi);
-            result.innerHTML = "L = 4 x S <br>" + "L = " + "4" + "x" + sisi + "<br>" + "L = " + keliling;
+            result.innerHTML = "K = 4 x S <br>" + "K = " + "4" + "x" + sisi + "<br>" + "K = " + keliling;
         }
         else{
             window.alert("Please Input the Side Length");
